@@ -43,10 +43,13 @@ In addition to the prerequisites above you will also need
 - A copy of the source (clone this repo)
 - [web-ext](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext)
 - rust and cargo (install using package manager or [rustup](https://www.rust-lang.org/tools/install))
+- [tsc (typescript compiler)](https://www.typescriptlang.org/#download-links)
 
 ### The extension
 
-1. In the add-on/ directory, run the `web-ext build` command. The build extension will be placed as a .zip in `add-on/web-ext-artifacts`. To install it, look [here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext#Packaging_your_extension).
+1. In the add-on/ directory
+    - Run `tsc --build` to build the source typescript files into javascript, which is placed in the `add-on/dist` folder.
+    - Run the `web-ext build` command. The build extension will be placed as a .zip in `add-on/web-ext-artifacts`. To install it, look [here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext#Packaging_your_extension).
 2. Run `cargo build` (optionally with the `--release` flag to make an optimized build). The binary will be placed in `target/{debug,release}`.
 
 Don't forget to also add a native manifest file as described in the installation section.
