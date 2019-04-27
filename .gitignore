@@ -97,3 +97,6 @@ typings/
 # Built code
 add-on/dist
 add-on/web-ext-artifacts
+
+# Vscode
+.vscode
