@@ -17,7 +17,7 @@ type Command =
     | { "command": "Raise" };
 
 
-let nativePort = browser.runtime.connectNative("mpris_integration_native_app");
+let nativePort = browser.runtime.connectNative("mpris_integration_native");
 
 let playerPorts: PlayerPort[] = [];
 

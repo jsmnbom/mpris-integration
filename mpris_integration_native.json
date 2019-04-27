@@ -1,7 +1,7 @@
 {
-    "name": "mpris_integration_native_app",
+    "name": "mpris_integration_native",
     "description": "Native host for mpris-integration, does the actual dbus mpris communication.",
-    "path": "PATH_TO_NATIVE_APP_BINARY",
+    "path": "PATH_TO_NATIVE_BINARY",
     "type": "stdio",
     "allowed_extensions": [
         "mpris-integration@jsmnbom.github.io"

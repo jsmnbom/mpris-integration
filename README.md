@@ -30,7 +30,7 @@ The following software is required to use this project.
     - Compiled version from [here](https://github.com/jsmnbom/mpris-integration/releases).
     - Or compile it yourself (see below)
 3. Add a native manifest file
-    - Copy the [mpris_integration_native_app.json](mpris_integration_native_app.json) file to `~/.mozilla/native-messaging-hosts/` and replace the `path` key with the location of the native host binary.
+    - Copy the [mpris_integration_native.json](mpris_integration_native.json) file to `~/.mozilla/native-messaging-hosts/` and replace the `path` key with the location of the native host binary.
 
 ~~If you're running Arch Linux, steps 2 and 3 can be replaced by installing the AUR package [media-integration-native-host](https://aur.archlinux.org/)~~ (not yet released).
 
