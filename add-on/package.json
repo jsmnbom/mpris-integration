@@ -1,6 +1,6 @@
 {
   "name": "mpris-integration",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Adds mpris integration for certain sites. It allows you to have proper media key support for webplayers like youtube and spotify.",
   "main": "manifest.json",

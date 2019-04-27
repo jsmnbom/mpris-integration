@@ -2,7 +2,7 @@
   "description": "Adds mpris integration for certain sites. It allows you to have proper media key support for webplayers like youtube and spotify.",
   "manifest_version": 2,
   "name": "Mpris integration",
-  "version": "0.1",
+  "version": "0.2",
   "author":"Jasmin Bom",
   "homepage_url": "https://github.com/jsmnbom/mpris-integration",
   "applications": {

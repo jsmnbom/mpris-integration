@@ -1,6 +1,6 @@
 [package]
 name = "mpris-integration-native"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Jasmin Bom <jsmnbom@gmail.com>"]
 edition = "2018"
 
