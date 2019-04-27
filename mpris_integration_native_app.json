@@ -1,0 +1,9 @@
+{
+    "name": "mpris_integration_native_app",
+    "description": "Native host for mpris-integration, does the actual dbus mpris communication.",
+    "path": "/home/jas/dev/extensions/mpris-integration/target/debug/mpris-integration-native",
+    "type": "stdio",
+    "allowed_extensions": [
+        "mpris-integration@jsmnbom.github.io"
+    ]
+}

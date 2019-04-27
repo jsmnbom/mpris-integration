@@ -1,0 +1,12 @@
+[package]
+name = "mpris-integration-native"
+version = "0.1.0"
+authors = ["Jasmin Bom <jsmnbom@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+byteorder = "1"
+mpris-player = { git = "https://gitlab.gnome.org/World/Rust/mpris-player" }
+glib = "0.7"

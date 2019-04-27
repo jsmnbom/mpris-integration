@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "outDir": "dist",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "typeRoots": ["node_modules/@types"],
+        "sourceMap": true
+    }
+}

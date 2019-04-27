@@ -1,0 +1,26 @@
+{
+  "name": "mpris-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Adds mpris integration for certain sites. It allows you to have proper media key support for webplayers like youtube and spotify.",
+  "main": "manifest.json",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^67.0.1"
+  },
+  "scripts": {},
+  "author": "Jasmin Bom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsmnbom/mpris-integration.git"
+  },
+  "license": "MIT",
+  "webExt": {
+    "ignoreFiles": [
+      "src",
+      "tsconfig.json",
+      "package.json",
+      "package-lock.json"
+    ]
+  }
+}
