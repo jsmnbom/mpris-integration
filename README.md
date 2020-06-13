@@ -1,3 +1,6 @@
+***Firefox now supports mrpis natively, so this extension is no longer needed, and is not in active development***  
+For more info see: https://github.com/jsmnbom/mpris-integration/issues/9
+
 # Mpris integration
 
 Adds [mpris](https://specifications.freedesktop.org/mpris-spec/latest/) integration for certain sites using a Firefox Webextension.
